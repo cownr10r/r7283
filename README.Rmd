@@ -36,7 +36,7 @@ This is a basic example which shows you how to solve a common problem:
 ## Not run:
 # library(r7283)
 # bib <- "c:/path/to/file/here.bib"
-# r7283::rectangulate(bib)
+# r7283:::rectangulate(bib)
 ## End(**Not run**)
 ```
 
