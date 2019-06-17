@@ -7,11 +7,11 @@
 
 <!-- badges: end -->
 
-The goal of r7283 is to provide miscellaneous tools helpful to the
-developer. Currently, the ‘rectangulate’ function provides a minimalist
+The goal of r7283 is to provide miscellaneous tools for education
+resarchers. Currently, the ‘rectangulate’ function provides a minimalist
 dataframe from which to begin the matrix literature review. The term
 ‘rectangulate’ refers to making a rectangle, which is reminiscent of
-the shape of a tidy dataframe.
+the shape of a tidy matrix.
 
 ## Installation
 
