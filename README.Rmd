@@ -26,7 +26,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("cownr10r/r7283")
+# devtools::install_github("cownr10r/r7283")
 ```
 ## Example
 
@@ -43,7 +43,7 @@ This is a basic example which shows you how to solve a common problem:
 The following code provides a preliminary examination of the recangulated object, and conversion of the document to factors, and a look at the factors.
 
 ```{r, evaluate = FALSE}
-summary(processedbibliography)
+head(processedbibliography,3)
 document <- as.factor(processedbibliography$Doc.Type)
 str(document)
 levels(document)
