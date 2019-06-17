@@ -8,10 +8,10 @@
 <!-- badges: end -->
 
 The goal of r7283 is to provide miscellaneous tools for education
-resarchers. Currently, the ‘rectangulate’ function provides a minimalist
-dataframe from which to begin the matrix literature review. The term
-‘rectangulate’ refers to making a rectangle, which is reminiscent of
-the shape of a tidy matrix.
+researchers. Currently, the ‘rectangulate’ function provides a
+minimalist data frame from which to begin the matrix literature review.
+The term ‘rectangulate’ refers to making a rectangle, which is
+reminiscent of the shape of a tidy matrix.
 
 ## Installation
 
