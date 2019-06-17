@@ -1,6 +1,6 @@
-#' Create a data frame
-#' @param a a bib file
-#' @return a dataframe to export as a foundation for the matrix literature review
+#'  A Matrix Literature Review Data Frame
+#' @param a A .bib file
+#' @return A dataframe to export as a foundation for the matrix literature review
 rectangulate <- function(a = path_to_bib){
 
 

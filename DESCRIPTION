@@ -5,6 +5,9 @@ Version: 0.1.0
 Author: Mario Antonio Martinez
 Maintainer: Mario Antonio Martinez <mario.a.martinez@live.com>
 Description: Miscellaneous functions for the package creator.
+URL: htt://github.com/cownr10r/r7283
+BugReports: http://github.com/cownr10r/r7283/issues
+Depends: R (>= 3.5.2)
 License: GPLv3
 Encoding: UTF-8
 LazyData: true

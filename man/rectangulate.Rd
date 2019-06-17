@@ -2,16 +2,16 @@
 % Please edit documentation in R/rectangulate.R
 \name{rectangulate}
 \alias{rectangulate}
-\title{Create a data frame}
+\title{A Matrix Literature Review Data Frame}
 \usage{
-rectangulate(a)
+rectangulate(a = path_to_bib)
 }
 \arguments{
-\item{a}{a bib file}
+\item{a}{A .bib file}
 }
 \value{
-a matrix
+A dataframe to export as a foundation for the matrix literature review
 }
 \description{
-Create a data frame
+A Matrix Literature Review Data Frame
 }
