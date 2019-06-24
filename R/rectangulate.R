@@ -113,6 +113,5 @@ rectangulate <- function(a = path_to_bib){
   Con_3 <- vector("character", length = length(dat))
   sl <- data.frame(data, Year, Evi_1, Con_1, Evi_2, Con_2, Evi_3, Con_3, Abstract, Author, DOI, URL, Vol, Num, stringsAsFactors = FALSE)
   sl1 <- sl[c(2,3,4,5,6,7,8,9,10,11,12,13,14,15,1)]
-  options(scipen = 999)
   return(sl1)
 }
