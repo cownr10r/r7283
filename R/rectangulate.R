@@ -95,7 +95,7 @@ rectangulate <- function(a = path_to_bib){
   }
 
 
-  dat <- rl(bib)
+  dat <- rl(a)
   data <- df(dat) # dataframe
   Abstract <- ab(dat)
   Vol <- vl(dat)
