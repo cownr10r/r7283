@@ -4,7 +4,7 @@
 #' @param b1 The path to a folder that will contain the output files.
 #' @return xml files with merged metadata and machine readable text. Quality control message indicating parsimony between indexed file names.
 #' @examples jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
-jstor_ocr <- function(a = input_path, b = output_path){
+jstor_ocr <- function(a1 = input_path, b1 = output_path){
 
   # read in files from unzipped master folder
 
@@ -41,7 +41,7 @@ jstor_ocr <- function(a = input_path, b = output_path){
     d <- xml2::xml_add_child(a, b)
     e <- hi[[i]]
     f <- paste(e, ".xml")
-    xml2::write_xml(a, file = paste("C:/Users/mariomartinez/Desktop/snake/", f))
+    xml2::write_xml(a, file = paste(b1, f))
   }
 
 }
