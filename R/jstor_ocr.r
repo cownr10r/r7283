@@ -30,11 +30,6 @@ jstor_ocr <- function(a1 = input_path, b1 = output_path){
     ho[[i]] <- gsub(".txt","", ho[[i]])
   }
 
-  # do a quality control here -- consider identical
-  ifelse(identical(hi,ho) == TRUE,
-         return(print("The process has passed quality control check. All indexed .xml and .txt file names are parsimonious.")),
-         return(print("The process has not passed quality control check. File merging is not reliable.")))
-
   for(i in seq_along(xmldata)){
     a <- xmldata[[i]]
     b <- textdata[[i]]
@@ -43,5 +38,11 @@ jstor_ocr <- function(a1 = input_path, b1 = output_path){
     f <- paste(e, ".xml")
     xml2::write_xml(a, file = paste(b1, f))
   }
+
+  # do a quality control here -- consider identical
+
+  ifelse(identical(hi,ho) == TRUE,
+         return(print("The process has passed quality control check. All indexed .xml and .txt file names are parsimonious.")),
+         return(print("The process has not passed quality control check. File merging is not reliable.")))
 
 }
