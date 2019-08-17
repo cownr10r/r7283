@@ -3,7 +3,7 @@
 #' @param a1 The path to the unzipped Jstor folder.
 #' @param b1 The path to a folder that will contain the output files.
 #' @return xml files with merged metadata and machine readable text.
-#' @examples jstor_ocr(a = "path/to/d4r/files", b = "destination/folder/path")
+#' @examples jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
 jstor_ocr <- function(a1 = input_path, b1 = output_path){
 
   hi <- list.files(paste0(a, "/metadata"), full.names=T)
