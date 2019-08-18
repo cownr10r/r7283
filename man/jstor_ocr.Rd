@@ -12,11 +12,15 @@ jstor_ocr(a1 = input_path, b1 = output_path)
 \item{b1}{The path to a folder that will contain the output files.}
 }
 \value{
-xml files with merged metadata and machine readable text.
+xml files with merged metadata and machine readable text. Quality control message
+
+indicating parsimony between indexed file names.
+
+currently will throw warning messages due to xml2.
 }
 \description{
 Take metadata and ocr text from D4R and merge it into xml files.
 }
 \examples{
-jstor_ocr(a = "path/to/d4r/files", b = "destination/folder/path")
+jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
 }
