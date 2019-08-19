@@ -12,11 +12,7 @@ jstor_ocr(a1 = input_path, b1 = output_path)
 \item{b1}{The path to a folder that will contain the output files.}
 }
 \value{
-xml files with merged metadata and machine readable text. Quality control message
-
-indicating parsimony between indexed file names.
-
-currently will throw warning messages due to xml2.
+Produces .xml files with concatenated metadata and machine readable text, and a quality control message indicating parsimony between indexed file names. Assumes a1 = unzipped file location. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing.
 }
 \description{
 Take metadata and ocr text from D4R and merge it into xml files.

@@ -2,9 +2,9 @@
 #'
 #' @param a1 The path to the unzipped Jstor folder.
 #' @param b1 The path to a folder that will contain the output files.
-#' @return xml files with merged metadata and machine readable text. Quality control message
-#' @return indicating parsimony between indexed file names.
-#' @return currently will throw warning messages due to xml2.
+#' @return Produces .xml files with concatenated metadata and machine readable text, and a quality control message indicating parsimony between indexed file names. Assumes a1 = unzipped file location. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing.
+
+
 #' @examples jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
 jstor_ocr <- function(a1 = input_path, b1 = output_path){
 
