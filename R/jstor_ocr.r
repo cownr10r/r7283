@@ -1,4 +1,4 @@
-#' Take metadata and ocr text from D4R and merge it into xml files.
+#' Take metadata and ocr text from DfR and merge it into xml files.
 #'
 #' @param a1 The path to the unzipped Jstor folder.
 #' @param b1 The path to a folder that will contain the output files.

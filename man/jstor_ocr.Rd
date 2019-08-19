@@ -2,7 +2,7 @@
 % Please edit documentation in R/jstor_ocr.r
 \name{jstor_ocr}
 \alias{jstor_ocr}
-\title{Take metadata and ocr text from D4R and merge it into xml files.}
+\title{Take metadata and ocr text from DfR and merge it into xml files.}
 \usage{
 jstor_ocr(a1 = input_path, b1 = output_path)
 }
@@ -15,7 +15,7 @@ jstor_ocr(a1 = input_path, b1 = output_path)
 Produces xml files with concatenated metadata + machine readable text, and a quality control message indicating parsimony between indexed file names. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing. At point of issuance, this code originates from a problem in education research practice setting.
 }
 \description{
-Take metadata and ocr text from D4R and merge it into xml files.
+Take metadata and ocr text from DfR and merge it into xml files.
 }
 \examples{
 jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
