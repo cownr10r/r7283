@@ -2,7 +2,7 @@
 #'
 #' @param a1 The path to the unzipped Jstor folder.
 #' @param b1 The path to a folder that will contain the output files.
-#' @return Produces xml files with concatenated metadata + machine readable text, and a quality control message indicating parsimony between indexed file names. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing. At point of issuance, this code originates from a problem in education research practice setting.
+#' @return Produces xml files with concatenated metadata + machine readable text, and a quality control message indicating simiitude between indexed file names. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing. At point of issuance, this code originates from a problem in education research practice setting.
 
 
 #' @examples jstor_ocr(a1 = "path/to/d4r/files", b1 = "destination/folder/path")
