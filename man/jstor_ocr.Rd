@@ -12,7 +12,7 @@ jstor_ocr(a1 = input_path, b1 = output_path)
 \item{b1}{The path to a folder that will contain the output files.}
 }
 \value{
-Produces xml files with concatenated metadata + machine readable text, and a quality control message indicating parsimony between indexed file names. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing. At point of issuance, this code originates from a problem in education research practice setting.
+Produces xml files with concatenated metadata + machine readable text, and a quality control message indicating similitude between indexed file names. Note well: Due to inconsistent text tagging from file sources originating from JSTOR, may throw error messages when processing. At point of issuance, this code originates from a problem in education research practice setting.
 }
 \description{
 Take metadata and ocr text from DfR and merge it into xml files.
