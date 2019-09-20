@@ -1,7 +1,7 @@
 Package: r7283
 Type: Package
-Title: r7283: A miscellaneous toolkit
-Version: 0.1.0
+Title: A miscellaneous toolkit for education researchers
+Version: 1.1.0
 Author: Mario Antonio Martinez
 Maintainer: Mario Antonio Martinez <mario.a.martinez@live.com>
 Description: Miscellaneous functions for the package creator.

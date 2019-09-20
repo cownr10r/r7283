@@ -30,7 +30,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how use rectangulate:
 
 ```{r, example}
 ## Not run:
@@ -40,7 +40,7 @@ This is a basic example which shows you how to solve a common problem:
 ## End(**Not run**)
 ```
 
-The following code provides a preliminary examination of the recangulated object, and conversion of the document to factors, and a look at the factors.
+The following code provides a preliminary examination of the recangulated object, a conversion of the document to factors, and a first look at the factors.
 
 ```{r, evaluate = FALSE}
 head(processedbibliography,3)
